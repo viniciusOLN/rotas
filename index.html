@@ -1,0 +1,388 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Empresa Júnior de Turismo - Rotas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="StyleSheet" type="text/css" href="index-css.css" />
+    <meta name="description"
+        content="Empresa Júnior de Turismo da UFPI/UFDPAR de Parnaíba-PI. Prestamos serviços de turismo, organização de eventos e aluguel de veículos/hoteis">
+    <meta name="keywords" content="Turismo, Parnaíba-PI, Empresa Júnior, Rotas">
+    <meta name="robots" content="index, follows">
+    <meta name="author" content="CATI - Centro Acadêmico de Tecnologia e Inovação">
+    <link rel="icon" href="../logomarca/icon-rotas.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="brand" href='index.html'>
+            <h1>Empresa Júnior de Turismo - Rotas</h1>
+        </a>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">
+            <div class="burguer" onclick="arrow_off()">
+                <span class="item-burguer top"></span>
+                <span class="item-burguer center"></span>
+                <span class="item-burguer bottom"></span>
+            </div>
+        </label>
+        <nav class="nav" id="nav">
+            <label for="checkbox">
+                <span class="close" onclick="arrow_on()">X</span>
+            </label>
+            <ul id="ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services" onclick="close_menu(); arrow_on()">Nossos Serviços</a></li>
+                <li><a href="#who-are" onclick="close_menu(); arrow_on()"> Quem Somos</a></li>
+                <li><a href="#portfolio" onclick="close_menu(); arrow_on()">Portfólio</a></li>
+                <li><a href="#contact" onclick="close_menu(); arrow_on()">Contato</a></li>
+                <li class="ul-brand brand"><a href="index.html"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="apresentation">
+            <div class="container-slogan">
+                <h2 class="title-white">Levando o mundo até você!</h2>
+                <span class="icon-world"></span>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="title-white">Nossos serviços</h2>
+            <div class="container-services">
+                <div class="service" id="service-1">
+                    <h2 class="title-white" id="title-white-1">Agenciamento de transportes</h2>
+                    <span class="icon-service icon-bus"></span>
+                    <ul id="ul-1">
+                        <li>Promoção de eventos</li>
+                        <li>Organização</li>
+                        <li>Captação</li>
+                    </ul>
+                    <a class="container-arrow" id="arrow_1"
+                        onClick="activate('ul-1','title-white-1','service-1','arrow_1','arrow-left-1','arrow-right-1')">
+                        <span class="icon-arrow icon-arrow-left" id="arrow-left-1"></span>
+                        <span class="icon-arrow icon-arrow-right" id="arrow-right-1"></span>
+                    </a>
+                </div>
+                <div class="service" id="service-2">
+                    <h2 class="title-white" id="title-white-2">Eventos</h2>
+                    <span class="icon-service icon-calendar"></span>
+                    <ul id="ul-2">
+                        <li>Promoção de eventos</li>
+                        <li>Organização</li>
+                        <li>Captação</li>
+                    </ul>
+                    <a class="container-arrow" id="arrow_2"
+                        onClick="activate('ul-2','title-white-2','service-2','arrow_2','arrow-left-2','arrow-right-2')">
+                        <span class="icon-arrow icon-arrow-left" id="arrow-left-2"></span>
+                        <span class="icon-arrow icon-arrow-right" id="arrow-right-2"></span>
+                    </a>
+                </div>
+                <div class="service" id="service-3">
+                    <h2 class="title-white" id="title-white">Desenvolvimento regional e turístico</h2>
+                    <span class="icon-service icon-compass" id="compass"></span>
+                    <ul id="ul-3">
+                        <li>Promoção de eventos</li>
+                        <li>Organização</li>
+                        <li>Captação</li>
+                    </ul>
+                    <a class="container-arrow" id="arrow_3"
+                        onClick="activate('ul-3','title-white','service-3','arrow_3','arrow-left-3','arrow-right-3')">
+                        <span class="icon-arrow icon-arrow-left" id="arrow-left-3"></span>
+                        <span class="icon-arrow icon-arrow-right" id="arrow-right-3"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="who-are" id="who-are">
+            <h2 class="title-purple">Quem Somos</h2>
+            <h3 class="subtitle-purple">Somos a empresa júnior de turismo da Universidade Federal do Piauí. Atuando no
+                presente momento na cidade de Parnaíba-PI</h3>
+
+            <div class="container-objectives">
+                <div class="objective">
+                    <h2 class="title-purple">Missão</h2>
+                    <span class="icon-objective target"></span>
+                    <p class="description-purtle">Elaborar atividades de consultoria e prestar serviços no âmbito do
+                        turismo
+                        regional, objetivando contribuir socialmente para o desenvolvimento local.</p>
+                </div>
+                <div class="objective">
+                    <h2 class="title-purple">Visão</h2>
+                    <span class="icon-objective view"></span>
+                    <p class="description-purtle">Tornar-se uma empresa reconhecida em seu trabalho com excelência em
+                        consultoria, eventos e no desenvolvimento do Turismo em todo o estado do Piauí.</p>
+                </div>
+                <div class="objective">
+                    <h2 class="title-purple">Valores</h2>
+                    <span class="icon-objective values"></span>
+                    <p class="description-purtle">A empresa busca atuar no mercado sempre com ética, responsabilidade,
+                        profissionalismo e respeito, levando em consideração o espírito empreendedor.</p>
+                </div>
+            </div>
+        </section>
+        <section class="team">
+            <h2 class="title-purple">Equipe</h2>
+            <h3 class="subtitle-purple">Aqueles que fazem tudo acontecer!</h3>
+            <div class="team-apresentation">
+                <div class="columns">
+                    <div class="column-1">
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/arlindo-oliveira.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Arlindo Oliveira</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/solano-braga.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Solano Braga</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/arlindo-oliveira.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Arlindo Oliveira</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/arlindo-oliveira.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Arlindo Oliveira</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/arlindo-oliveira.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Arlindo Oliveira</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/arlindo-oliveira.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Arlindo Oliveira</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="column-2">
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/arlindo-oliveira.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Arlindo Oliveira</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/arlindo-oliveira.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Arlindo Oliveira</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/arlindo-oliveira.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Arlindo Oliveira</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/arlindo-oliveira.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Arlindo Oliveira</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/arlindo-oliveira.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Arlindo Oliveira</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="team-figure">
+                            <img src="../imagens/sessao-4/arlindo-oliveira.png" alt="">
+                            <figcaption class="container-info">
+                                <h2 class="title-white figcaption">Arlindo Oliveira</h2>
+                                <p class="subtitle-white figcaption">Presidente</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="title-white">Portfólio</h2>
+                <h3 class="subtitle-white">Que tal dar uma olhada nos nossos eventos?</h3>
+            </div>
+            <div class="img-portfolio">
+                <h2 class="title-white" style="margin-bottom: 25px;">Eventos realizados</h2>
+                <div class="realize">
+
+                    <figure>
+                        <img src="../imagens/sessao-5/imagem1.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../imagens/sessao-5/imagem2.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../imagens/sessao-5/imagem3.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../imagens/sessao-5/imagem4.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../imagens/sessao-5/imagem5.png" alt="">
+                    </figure>
+                </div>
+                <h2 class="title-white" style="margin: 25px;">Eventos com participação</h2>
+                <div class="participation">
+
+                    <figure>
+                        <img src="../imagens/sessao-5/imagem3.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../imagens/sessao-5/imagem6.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../imagens/sessao-5/imagem7.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../imagens/sessao-5/imagem8.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../imagens/sessao-5/imagem9.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../imagens/sessao-5/imagem10.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="title-white">Contato</h2>
+            <div class="divcontact">
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1019742.1424561602!2d-42.039004810961885!3d-3.2585085191343577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ec2537e8e01ebb%3A0x21922d996f6260ab!2sUFDPAR%20Campus%20Ministro%20Reis%20Velloso!5e0!3m2!1spt-BR!2sbr!4v1586820565277!5m2!1spt-BR!2sbr"
+                        width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="form">
+                    <form>
+                        <h3 class="title-form">Nome</h3>
+                        <input type="text" name="nome" class="input-form-contact" placeholder="Digite seu nome">
+                        <h3 class="title-form">Email</h3>
+                        <input type="text" name="nome" class="input-form-contact" placeholder="Digite seu email">
+                        <h3 class="title-form">Assunto</h3>
+                        <input type="text" name="nome" class="input-form-contact"
+                            placeholder="Digite o assunto da mensagem">
+                        <h3 class="title-form">Mensagem</h3>
+                        <textarea class="input-form-contact" style="height: 100px;padding-top: 20px;"
+                            placeholder="O que deseja nos falar?"></textarea>
+                        <input type="submit" name="Enviar" class="button-form" value="Enviar!">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container-infos">
+                <a class="brand" href='index.html'>
+                    <h1>Empresa Júnior de Turismo - Rotas</h1>
+                </a>
+                <div class="social">
+                    <h2 class="title-white">Social</h2>
+                    <ul class="ul-container">
+                        <li><a href=""><span class="icon-social facebook"></span>
+                                <p>Facebook</p>
+                            </a></li>
+                        <li><a href=""><span class="icon-social instagram"></span>
+                                <p>instagram</p>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="container-location-tell">
+                    <div class="tell">
+                        <h2 class="title-white">Telefone</h2>
+                        <ul class="ul-container">
+                            <li><a>
+                                    <p>(086) 9 9480-8620</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="location">
+                        <h2 class="title-white">Localização</h2>
+                        <ul class="ul-container">
+                            <li><a><span class="icon-social pin"></span>
+                                    <p class="p-location">Avenida São Sebastião,2819.<br>Bloco 03, Sala 04.
+                                        UFPI-CMRV<br>Bairro São Benedito,
+                                        Parnaíba-PI</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="email">
+                    <h2 class="title-white">Email</h2>
+                    <ul class="ul-container">
+                        <li><a href="">
+                                <p>empresajrrotas@gmail.com</p>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script>
+        function activate(id, title, service, arrow, arrow_left, arrow_right) {
+            if (document.getElementById(id).style.display == 'block') {
+                document.getElementById(title).style.color = '#fff';
+                document.getElementById(service).style.background = "#6f3a6b";
+                document.getElementById(service).classList.remove("shadow");
+                document.getElementById(id).style.display = 'none';
+                document.getElementById(arrow).classList.remove("arrow_skew");
+                document.getElementById(arrow_left).classList.remove("arrow_click");
+                document.getElementById(arrow_left).classList.remove("arrow_skew_left");
+                document.getElementById(arrow_right).classList.remove("arrow_click");
+                document.getElementById(arrow_right).classList.remove("arrow_skew_right");
+            } else {
+                document.getElementById(title).style.color = '#6f3a6b';
+                document.getElementById(service).style.background = "#fff";
+                document.getElementById(service).classList.add("shadow");
+                document.getElementById(id).style.display = 'block';
+                document.getElementById(arrow).classList.add("arrow_skew");
+                document.getElementById(arrow_left).classList.add("arrow_click");
+                document.getElementById(arrow_left).classList.add("arrow_skew_left");
+                document.getElementById(arrow_right).classList.add("arrow_click");
+                document.getElementById(arrow_right).classList.add("arrow_skew_right");
+            }
+
+        }
+
+        function arrow_off() {
+            document.getElementById("arrow_1").style.display = 'none';
+            document.getElementById("arrow_2").style.display = 'none';
+            document.getElementById("arrow_3").style.display = 'none';
+        }
+
+        function arrow_on() {
+            document.getElementById("arrow_1").style.display = 'flex';
+            document.getElementById("arrow_2").style.display = 'flex';
+            document.getElementById("arrow_3").style.display = 'flex';
+        }
+
+        function close_menu() {
+            document.getElementById("checkbox").checked = false;
+        }
+    </script>
+</body>
+
+</html>
