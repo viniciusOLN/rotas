@@ -150,7 +150,7 @@ body{
     height: 50px;
     font-size: 0;
     margin-left: 5px;
-    background: url(./logomarca/logo.png) center center/150px no-repeat;
+    background: url(logomarca/logo.png) center center/150px no-repeat;
 }
 
 /*section apresentation*/
@@ -160,7 +160,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(./imagens/sessao-1/fundo-web.jpg) fixed center center no-repeat #fff;
+    background: url(imagens/sessao-1/fundo-web.jpg) fixed center center no-repeat #fff;
 }
 
 .container-slogan{
@@ -179,7 +179,7 @@ body{
     width: 50px;
     height: 50px;
     margin: 10px;
-    background: url(./imagens/sessao-1/por-ai.svg) center center/50px no-repeat;
+    background: url(imagens/sessao-1/por-ai.svg) center center/50px no-repeat;
 }
 
 /*services*/
@@ -218,15 +218,15 @@ body{
 }
 
 .icon-bus{
-    background: url(./imagens/sessao-2/onibus-escolar.png) center center/180px no-repeat;
+    background: url(imagens/sessao-2/onibus-escolar.png) center center/180px no-repeat;
 }
 
 .icon-calendar{
-    background: url(./imagens/sessao-2/calendario.png) center center/180px no-repeat;
+    background: url(imagens/sessao-2/calendario.png) center center/180px no-repeat;
 }
 
 .icon-compass{
-    background: url(./imagens/sessao-2/bussola.png) center center/180px no-repeat;
+    background: url(imagens/sessao-2/bussola.png) center center/180px no-repeat;
 }
 
 .service ul{
@@ -314,15 +314,15 @@ body{
 }
 
 .target{
-    background: url(./imagens/sessao-3/alvo-laranja.png) center center/100px no-repeat;
+    background: url(imagens/sessao-3/alvo-laranja.png) center center/100px no-repeat;
 }
 
 .view{
-    background: url(./imagens/sessao-3/visao-laranja.png) center center/100px no-repeat;
+    background: url(imagens/sessao-3/visao-laranja.png) center center/100px no-repeat;
 }
 
 .values{
-    background: url(./imagens/sessao-3/valor-laranja.png) center center/100px no-repeat;
+    background: url(imagens/sessao-3/valor-laranja.png) center center/100px no-repeat;
 }
 
 .description-purtle{
@@ -557,15 +557,15 @@ body{
 }
 
 .facebook{
-    background: url(./imagens/rodapé/facebook.png) center center/30px no-repeat;
+    background: url(imagens/rodapé/facebook.png) center center/30px no-repeat;
 }
 
 .instagram{
-    background: url(./imagens/rodapé/instagram.png) center center/30px no-repeat;
+    background: url(imagens/rodapé/instagram.png) center center/30px no-repeat;
 }
 
 .pin{
-    background: url(./imagens/rodapé/pin.png) center center/30px no-repeat;
+    background: url(imagens/rodapé/pin.png) center center/30px no-repeat;
 }
 
 .p-location{
