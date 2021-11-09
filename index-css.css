@@ -160,7 +160,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../../imagens/sessao-1/fundo-web.jpg) fixed center center no-repeat #fff;
+    background: url("../imagens/sessao-1/fundo-web.jpg") fixed center center no-repeat #fff;
 }
 
 .container-slogan{
